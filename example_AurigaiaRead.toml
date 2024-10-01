@@ -1,0 +1,9 @@
+# Location of the Original Auriga Data in either Globus or cosma type
+auriga_folder = "data_location"
+# Location for new data to be written: orientation, agama potential, origin, accretion data, cached particle data
+my_auriga_folder = "data_location_new_write"
+#Whether or not to save certain calculated particle properties (normally not necessary)
+use_cache_default = false
+# The folder structures used, either as downloaded from Globus, or cosma
+tree_file_type = "Globus"
+halo_file_type = "Globus"
